@@ -91,37 +91,37 @@ h3 {
   min-width: 320px;
 }
 
-.thing-l>img {
+.thing-l > img {
   width: 320px;
   height: 320px;
 }
 
-.thing-s>img {
+.thing-s > img {
   width: 180px;
   height: 180px;
 }
 
-.thing-l>span:nth-of-type(1) {
+.thing-l > span:nth-of-type(1) {
   display: block;
   text-align: center;
   font-size: 1.75rem;
 }
 
-.thing-s>span:nth-of-type(1) {
+.thing-s > span:nth-of-type(1) {
   display: block;
   text-align: center;
   font-size: 1.25rem;
 }
 
-.thing-l>span:nth-of-type(2),
-.thing-s>span:nth-of-type(2) {
+.thing-l > span:nth-of-type(2),
+.thing-s > span:nth-of-type(2) {
   display: block;
   text-decoration: none;
   align-self: stretch;
 }
 
-.thing-l>span:nth-of-type(3),
-.thing-s>span:nth-of-type(3) {
+.thing-l > span:nth-of-type(3),
+.thing-s > span:nth-of-type(3) {
   margin-top: auto;
   margin-left: auto;
   font-size: 0.75em;
@@ -137,6 +137,9 @@ h3 {
 .dead {
   cursor: not-allowed;
 }
+.kofi-button {
+  vertical-align: bottom;
+}
 
 footer {
   display: flex;
@@ -146,7 +149,7 @@ footer {
   flex-wrap: wrap;
 }
 
-footer>a {
+footer > a {
   line-height: 0;
 }
 
